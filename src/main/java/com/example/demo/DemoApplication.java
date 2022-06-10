@@ -12,7 +12,8 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World from GitHub and Openshift 28/May/2022!";
+        System.out.println("Log de mi microservicio!!");
+        return "Hello World from GiHub ECM Solutions 10JUN2022!";
     }
 
     public static void main(String[] args) {
