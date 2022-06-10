@@ -12,7 +12,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        System.out.println("Log de mi microservicio!!");
+        System.out.println("Log de mi microservicio 2!!");
         return "Hello World from GiHub ECM Solutions 10JUN2022!";
     }
 
